@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HomeWork 05</title>
+    <title>HomeWork 06  </title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
@@ -24,8 +24,7 @@
     <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a class="logo header-logo" href="/index.html"
-            >Web<span class="logo-part">Studio</span></a
+          <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a
           >
           <ul class="nav-list">
             <li class="nav-item">
@@ -38,76 +37,148 @@
         <!-- Social links -->
         <address class="contacts">
           <ul class="contacts-list">
-            <li class="contacts-item">
-              <a class="contacts-link" href="mailto:info@devstudio.com"
+            <li class="contacts-list-item">
+              <a class="contacts-list-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li class="contacts-item">
-              <a class="contacts-link" href="tel:+110001111111"
+            <li class="contacts-list-item">
+              <a class="contacts-list-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button class="burgermenu-button" type="button" data-menu-open>
+            <svg class="burgermenu-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-burgermenu"></use>
+            </svg>
       </div>
+   <div class="mobile-menu" data-menu>
+          <div class="container mobile-menu-container">
+            <button class="close-button" type="button" data-menu-close>
+              <svg class="icon-close" width="8" height="8">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <nav class="mobile-menu-nav">
+              <ul class="navigation-mobile-list">
+                <li class="navigation-mobile-item">
+                  <a href="./index.html" class="navigation-list-mobile-menu current">Studio</a>
+                </li>
+                <li class="navigation-mobile-item">
+                  <a href="" class="navigation-list-mobile-menu">Portfolio</a>
+                </li>
+                <li class="navigation-mobile-item">
+                  <a href="" class="navigation-list-mobile-menu">Contacts</a>
+                </li>
+              </ul>
+            </nav>
+            <address class="contacts-menu">
+              <ul class="contacts-list-menu">
+                <li class="contacts-list-item">
+                  <a href="tel:+110001111111" class="contacts-list-link-menu"
+                    >+11 (000) 111-11-11</a
+                  >
+                </li>
+                <li class="contacts-list-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="contacts-list-link-menu"
+                    >info@devstudio.com</a
+                  >
+                </li>
+              </ul>
+            </address>
+            <ul class="social-menu">
+              <li class="social-link">
+                <a class="social-icon" href="https://www.instagram.com/" target="_blank">
+                  <svg class="new-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-link">
+                <a class="social-icon" href="https://https://x.com/" target="_blank">
+                  <svg class="new-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-link">
+                <a class="social-icon" href="https://www.facebook.com/" target="_blank">
+                  <svg class="new-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-link">
+                <a class="social-icon" href="https://ua.linkedin.com/" target="_blank">
+                  <svg class="new-icons" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
     </header>
     <main>
       <!-- First section -->
       <section class="first-section">
-        <div class="container">
+        <div class="container first-section-container">
           <h1 class="new-title">Effective Solutions for Your Business</h1>
           <button class="first-button" type="button">Order Service</button>
         </div>
       </section>
       <section class="features-section">
-        <div class="container">
+        <div class="container features-section-container">
           <h2 class="visually-hidden">Features</h2>
           <ul class="features-list">
             <li class="features-item">
-              <div class="features-describe">
-                <svg class="describe-icon" width="64" height="64">
+              <div class="features-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="team-description">Strategy</h3>
-              <p class="text-image">
+              <h3 class="team-description-first">Strategy</h3>
+              <p class="text-image-team">
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
             <li class="features-item">
-              <div class="features-describe">
-                <svg class="describe-icon" width="64" height="64">
+              <div class="features-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="team-description">Punctuality</h3>
-              <p class="text-image">
+              <h3 class="team-description-first">Punctuality</h3>
+              <p class="text-image-team">
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
             <li class="features-item">
-              <div class="features-describe">
-                <svg class="describe-icon" width="64" height="64">
+              <div class="features-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="team-description">Diligence</h3>
-              <p class="text-image">
+              <h3 class="team-description-first">Diligence</h3>
+              <p class="text-image-team">
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
             <li class="features-item">
-              <div class="features-describe">
-                <svg class="describe-icon" width="64" height="64">
+              <div class="features-wrap">
+                <svg width="64" height="64">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="team-description">Technologies</h3>
-              <p class="text-image">
+              <h3 class="team-description-first">Technologies</h3>
+              <p class="text-image-team">
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -116,306 +187,457 @@
         </div>
       </section>
       <!-- Image section about team with description -->
-      <section class="team-section">
-        <div class="container">
-          <h2 class="section-title">Our Team</h2>
-          <ul class="image-list">
-            <li class="image-section">
-              <img
-                src="./images/MarkGuerrero.jpg"
-                alt="Mark Guerrero"
-                width="264"
-                height="260"
-              />
-              <div class="text-team">
-                <h3 class="team-description">Mark Guerrero</h3>
-                <p class="text-image">Product Designer</p>
-                <ul class="team-icon">
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+      <section class="hero">
+  <div class="container hero-container">
+    <h2 class="hero-tittle">Our Team</h2>
+    <ul class="image-list">
+      <li class="image-section">
+        <img
+          srcset="./images/MarkGuerrero.jpg 1x, ./images/MarkGuerrero-2x.jpg 2x"
+          src="./images/mark.jpg"
+          width="264"
+          height="260"
+          alt="Mark Guerrero"
+        />
+        <div class="text-team">
+          <h3 class="team-description">Mark Guerrero</h3>
+          <p class="text-image">Product Designer</p>
+          <ul class="team-icon">
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="image-section">
-              <img
-                src="./images/TomFord.jpg"
-                alt="Tom Ford"
-                width="264"
-                height="260"
-              />
-              <div class="text-team">
-                <h3 class="team-description">Tom Ford</h3>
-                <p class="text-image">Frontend Developer</p>
-                <ul class="team-icon">
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li class="image-section">
-              <img
-                src="./images/CamilaGarcia.jpg"
-                alt="Camila Garcia"
-                width="264"
-                height="260"
-              />
-              <div class="text-team">
-                <h3 class="team-description">Camila Garcia</h3>
-                <p class="text-image">Marketing</p>
-                <ul class="team-icon">
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
             </li>
-            <li class="image-section">
-              <img
-                src="./images/DanielWilson.jpg"
-                alt="Daniel Wilson"
-                width="264"
-                height="260"
-              />
-              <div class="text-team">
-                <h3 class="team-description">Daniel Wilson</h3>
-                <p class="text-image">UI Designer</p>
-                <ul class="team-icon">
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-instagram"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-facebook"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social">
-                    <a class="social-icon" href="./images/icons.svg">
-                      <svg class="icon-teams" width="16" height="16">
-                        <use href="./images/icons.svg#icon-linkedin"></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://ua.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
         </div>
-      </section>
-
+      </li>
+      <li class="image-section">
+        <img
+          srcset="./images/TomFord.jpg 1x, ./images/TomFord-2x.jpg 2x"
+          src="./images/tom.jpg"
+          width="264"
+          height="260"
+          alt="Tom Ford"
+        />
+        <div class="text-team">
+          <h3 class="team-description">Tom Ford</h3>
+          <p class="text-image">Frontend Developer</p>
+          <ul class="team-icon">
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://ua.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="image-section">
+        <img
+          srcset="./images/CamilaGarcia.jpg 1x, ./images/CamilaGarcia-2x.jpg 2x"
+          src="./images/camila.jpg"
+          width="264"
+          height="260"
+          alt="Camila Garcia"
+        />
+        <div class="text-team">
+          <h3 class="team-description">Camila Garcia</h3>
+          <p class="text-image">Marketing</p>
+          <ul class="team-icon">
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://ua.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li class="image-section">
+        <img
+          srcset="./images/DanielWilson.jpg 1x, ./images/DanielWilson-2x.jpg 2x"
+          src="./images/daniel.jpg"
+          width="264"
+          height="260"
+          alt="Daniel Wilson"
+        />
+        <div class="text-team">
+          <h3 class="team-description">Daniel Wilson</h3>
+          <p class="text-image">UI Designer</p>
+          <ul class="team-icon">
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.instagram.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://x.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://www.facebook.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="team-social">
+              <a
+                class="social-icon"
+                href="https://ua.linkedin.com/"
+                target="_blank"
+              >
+                <svg class="icon-teams" width="16" height="16">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
       <section class="portfolio-section">
-        <div class="container">
-          <h2 class="section-title">Our Portfolio</h2>
-          <ul class="portfolio-list">
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/BankingApp.jpg"
-                  alt="Banking App"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Banking App</h3>
-                <p class="text-image">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/CashlessPayment.jpg"
-                  alt="Cashless Payment"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Cashless Payment</h3>
-                <p class="text-image">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/MeditationApp.jpg"
-                  alt="Meditation App"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Meditation App</h3>
-                <p class="text-image">App</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/TaxiService.jpg"
-                  alt="Taxi Service"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Taxi Service</h3>
-                <p class="text-image">Marketing</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/ScreenIllustrations.jpg"
-                  alt="Screen Illustrations"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Screen Illustrations</h3>
-                <p class="text-image">Design</p>
-              </div>
-            </li>
-            <li class="portfolio-item">
-              <div class="portfolio-team">
-                <img
-                  src="./images/OnlineCourses.jpg"
-                  alt="Online Courses"
-                  width="360"
-                  height="300"
-                />
-                <p class="overlay">
-                  14 Stylish and User-Friendly App Design Concepts · Task
-                  Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
-                  · Cloud Storage App
-                </p>
-              </div>
-              <div class="image-portfolio">
-                <h3 class="team-description">Online Courses</h3>
-                <p class="text-image">Marketing</p>
-              </div>
-            </li>
-          </ul>
+  <div class="container portfolio-section-container">
+    <h2 class="section-title">Our Portfolio</h2>
+    <ul class="portfolio-list">
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/BankingApp.jpg 1x, ./images/BankingApp-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/BankingAppTablet.jpg 1x, ./images/BankingAppTablet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/BankingAppMobile.jpg 1x, ./images/BankingAppMobile-2x.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/BankingApp.jpg"
+              width="360"
+              height="300"
+              alt="Banking App"
+            />
+          </picture>
+          <p class="text-image">
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
         </div>
-      </section>
+        <div class="image-portfolio">
+          <h3 class="team-description">Banking App</h3>
+          <p class="text-image">App</p>
+        </div>
+      </li>
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/CashlessPayment.jpg 1x, ./images/CashlessPayment-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/CashlessPaymentTablet.jpg 1x, ./images/CashlessPaymentTablet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/CashlessPaymentMobile.jpg 1x, ./images/CashlessPaymentMobile-2x.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/CashlessPayment.jpg"
+              width="360"
+              height="300"
+              alt="Cashless Payment"
+            />
+          </picture>
+          <p class="text-image">
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
+        </div>
+        <div class="image-portfolio">
+          <h3 class="team-description">Cashless Payment</h3>
+          <p class="text-image">Marketing</p>
+        </div>
+      </li>
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/MeditationApp.jpg 1x, ./images/MeditationApp-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/MeditationAppTablet.jpg 1x, ./images/MeditationAppTAblet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/MeditationAppMobile.jpg 1x, ./images/MeditationAppMobile-2x.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/MeditationApp.jpg"
+              width="360"
+              height="300"
+              alt="Meditation App"
+            />
+          </picture>
+          <p class="text-image">
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
+        </div>
+        <div class="image-portfolio">
+          <h3 class="team-description">Meditation App</h3>
+          <p class="text-image">App</p>
+        </div>
+      </li>
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/TaxiService.jpg 1x, ./images/TaxiService-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/TaxiServiceTablet.jpg 1x, ./images/TaxiServiceTablet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/TaxiServiceMobile.jpg 1x, ./images/TaxiServiceMobile.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/TaxiService.jpg"
+              width="360"
+              height="300"
+              alt="Taxi Service"
+            />
+          </picture>
+          <p class="text-image">
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
+        </div>
+        <div class="image-portfolio">
+          <h3 class="team-description">Taxi Service</h3>
+          <p class="text-image">Marketing</p>
+        </div>
+      </li>
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/ScreenIllustrations.jpg 1x, ./images/ScreenIllustrations-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/ScreenIllustrationsTablet.jpg 1x, ./images/ScreenIllustrationsTablet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/ScreenIllustrationsMobile.jpg 1x, ./images/ScreenIllustrationsMobile-2x.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/ScreenIllustrations.jpg"
+              width="360"
+              height="300"
+              alt="Screen Illustrations"
+            />
+          </picture>
+          <p class="text-image">
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
+        </div>
+        <div class="image-portfolio">
+          <h3 class="team-description">Screen Illustrations</h3>
+          <p class="text-image">Design</p>
+        </div>
+      </li>
+      <li class="portfolio-item">
+        <div class="portfolio-team">
+          <picture>
+            <source
+              srcset="./images/OnlineCourses.jpg 1x, ./images/OnlineCourses-2x.jpg 2x"
+              media="(min-width:1158px)"
+            />
+            <source
+              srcset="./images/OnlineCoursesTablet.jpg 1x, ./images/OnlineCoursesTablet-2x.jpg 2x"
+              media="(min-width:768px)"
+            />
+            <source
+              srcset="./images/OnlineCoursesMobile.jpg 1x, ./images/OnlineCoursespMobile-2x.jpg 2x"
+              media="(max-width:767px)"
+            />
+            <img
+              src="./images/OnlineCourses.jpg"
+              width="360"
+              height="300"
+              alt="Online Courses"
+            />
+          </picture>
+          <p class=text-image>
+            14 Stylish and User-Friendly App Design Concepts · Task
+            Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
+            · Cloud Storage App
+          </p>
+        </div>
+        <div class="image-portfolio">
+          <h3 class="team-description">Online Courses</h3>
+          <p class="text-image">Marketing</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
     </main>
     <!-- Footer with logo -->
-    <footer>
+    <footer class="footer">
       <div class="container section-footer">
         <div class="container-logo">
           <a class="logo footer-logo" href="/index.html">Web<span class="logo-part">Studio</span></a
@@ -427,29 +649,29 @@
         </div>
         <div class="container-footer">
           <p class="footer-media">Social media</p>
-          <ul class="team-icon footer-social">
-            <li class="team-social">
+          <ul class="footer-social">
+            <li class="team-social-footer">
               <a class="footer-icons" href="./images/icons.svg">
                 <svg class="icon-teams" width="24" height="24">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-social">
+            <li class="team-social-footer">
               <a class="footer-icons" href="./images/icons.svg">
                 <svg class="icon-teams" width="24" height="24">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-social">
+            <li class="team-social-footer">
               <a class="footer-icons" href="./images/icons.svg">
                 <svg class="icon-teams" width="24" height="24">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="team-social">
+            <li class="team-social-footer">
               <a class="footer-icons" href="./images/icons.svg">
                 <svg class="icon-teams" width="24" height="24">
                   <use href="./images/icons.svg#icon-linkedin"></use>
@@ -462,7 +684,8 @@
                 <p class="send-text">Subscribe</p>
                 <form class="send-form">
                     <label class="send-label">
-                        <input name="email"
+                        <input 
+                        name="email"
                         class="send-input"
                         type="email"
                         placeholder="E-mail"
@@ -480,12 +703,12 @@
     </footer>
     <div class="modal-window">
       <div class="modal">
-        <button type="button" class="close-button">
-          <svg class="icon-close" width="8" height="8">
+        <button class="close-button-modal" type="button">
+          <svg class="icon-close-modal" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
-        <p class="team-description contacts-description">
+        <p class="modal-comment">
                 Leave your contacts and we will call you back
             </p>
             <form> 
@@ -528,8 +751,10 @@
                 <use href="./images/icons.svg#icon-checkbox"></use>
             </svg>
         </span>
-        I accept the terms and conditions of the
+        <span>
+        I accept the terms and conditions of the 
         <a class="accept-text" href="./index.html">Privacy Policy</a>
+        </span>
     </label>
 </div>
 <button class="button-form" type="submit">Send</button>
